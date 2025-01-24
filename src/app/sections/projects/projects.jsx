@@ -112,7 +112,9 @@ const Projects = () => {
         Being a highly motivated engineering student, I have been proactively
         seeking out opportunities to hone my analytical skills.
       </p>
-      <p className="mt-4">Below are some projects I have done!</p>
+      <p className="mt-4" style={{ color: "black" }}>
+        Below are some projects I have done!
+      </p>
       <div className="inner">
         <Box
           sx={{

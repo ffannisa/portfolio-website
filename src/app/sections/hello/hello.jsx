@@ -46,10 +46,21 @@ const Hello = () => {
         >
           Fannisa Fahmi
         </h1>
-        <p>Big Data Enthusiast | Undergraduate Student | Senior in SUTD</p>
+        <p style={{ color: "black" }}>
+          Big Data Enthusiast | Undergraduate Student | Senior in SUTD
+        </p>
         <Button
           className="text-white font-semibold rounded-full px-5 py-2.5 transition-all hover:bg-pink-300 hover:shadow-lg hover:scale-105 bg-black"
           href="./files/FannisaFahmi_Resume.pdf"
+          sx={{
+            backgroundColor: "black",
+            fontWeight: "bold",
+            px: 5,
+            py: 2.5,
+            "&:hover": {
+              backgroundColor: "#ff69b4",
+            },
+          }}
         >
           <AttachFileRoundedIcon className="mr-2" />
           View my Resume/CV
