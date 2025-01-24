@@ -16,17 +16,6 @@
   }
 }
 
-/* Ensure Tailwind styles override MUI */
-@layer components {
-  .MuiButton-root {
-    @apply text-white font-semibold rounded-full px-5 py-2.5 transition-all bg-black;
-  }
-
-  .MuiButton-root:hover {
-    @apply hover:bg-pink-300 hover:shadow-lg hover:scale-105;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);

@@ -182,8 +182,12 @@ const Projects = () => {
                   <Typography
                     variant="h6"
                     component="div"
-                    sx={{ fontSize: "1rem", mb: 1, fontWeight: "bold" }}
-                    className="fira-code-regular font-bold"
+                    sx={{
+                      fontSize: "1rem",
+                      mb: 1,
+                      fontWeight: "bold",
+                      fontFamily: "'Fira Code', monospace",
+                    }}
                   >
                     {project.title}
                   </Typography>
@@ -193,9 +197,9 @@ const Projects = () => {
                         <Typography
                           variant="body2"
                           component="span"
-                          className="fira-code-regular"
                           sx={{
                             fontSize: "0.75rem",
+                            fontFamily: "'Fira Code', monospace",
                           }}
                         >
                           {detail}
@@ -210,13 +214,13 @@ const Projects = () => {
                   <Link href={project.link} passHref>
                     <Button
                       size="small"
-                      className="fira-code-regular"
                       sx={{
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "flex-end",
                         marginRight: "2px",
                         color: "#fff",
+                        fontFamily: "'Fira Code', monospace",
                         "&:hover": { backgroundColor: "#edb9e2" },
                       }}
                     >

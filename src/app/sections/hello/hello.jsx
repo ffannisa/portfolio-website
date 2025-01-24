@@ -42,16 +42,29 @@ const Hello = () => {
         </p>
         <h1
           style={{ color: "#ff69b4" }}
-          className="cherry-bomb-one-regular text-[6rem] "
+          className="cherry-bomb-one-regular text-[4rem] md:text-[6rem]"
         >
           Fannisa Fahmi
         </h1>
-        <p style={{ color: "black" }}>
+        <p className="text-sm md:text-base" style={{ color: "black" }}>
           Big Data Enthusiast | Undergraduate Student | Senior in SUTD
         </p>
         <Button
-          className="text-white font-semibold rounded-full px-5 py-2.5 transition-all hover:bg-pink-300 hover:shadow-lg hover:scale-105 bg-black"
           href="./files/FannisaFahmi_Resume.pdf"
+          sx={{
+            color: "white", // Text color
+            fontWeight: "bold", // Font weight
+            borderRadius: "9999px", // Fully rounded corners (same as rounded-full)
+            px: 3, // Padding left and right
+            py: 1.5, // Padding top and bottom
+            backgroundColor: "black", // Background color
+            transition: "all 0.3s ease", // Smooth transition for hover effects
+            "&:hover": {
+              backgroundColor: "#ff69b4", // Hover background color
+              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Shadow effect on hover
+              transform: "scale(1.05)", // Slight zoom effect on hover
+            },
+          }}
         >
           <AttachFileRoundedIcon className="mr-2" />
           View my Resume/CV

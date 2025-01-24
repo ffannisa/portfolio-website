@@ -54,7 +54,10 @@ const About = () => {
             <Typography
               variant="h5"
               component="div"
-              className="text-2xl cherry-bomb-one-regular"
+              sx={{
+                fontSize: "1.5rem",
+                fontFamily: "'Cherry Bomb One', sans-serif",
+              }}
             >
               My Skills
             </Typography>
@@ -65,8 +68,8 @@ const About = () => {
                     key={skill}
                     variant="contained"
                     size="small"
-                    className="fira-code-regular"
                     sx={{
+                      fontFamily: "'Fira Code', monospace",
                       textTransform: "none",
                       backgroundColor: "#4298f5",
                       "&:hover": { backgroundColor: "#2563eb" },
