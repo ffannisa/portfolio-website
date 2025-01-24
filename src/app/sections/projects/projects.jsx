@@ -211,7 +211,7 @@ const Projects = () => {
               </CardActionArea>
               <CardActions>
                 {project.link && (
-                  <Link href={project.link} passHref>
+                  <Link href={project.link} passHref target="_blank">
                     <Button
                       size="small"
                       sx={{

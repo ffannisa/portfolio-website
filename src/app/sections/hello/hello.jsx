@@ -51,6 +51,7 @@ const Hello = () => {
         </p>
         <Button
           href="./files/FannisaFahmi_Resume.pdf"
+          target="_blank"
           sx={{
             color: "white", // Text color
             fontWeight: "bold", // Font weight
