@@ -89,10 +89,10 @@ const projects = [
     title: "Portfolio Website",
     image: "/images/pic12.png",
     details: [
-      "Created a website portfolio hosted in github.",
+      "Created a website portfolio hosted in vercel.",
       "Utilized Next.Js and Tailwind.css framework for easily editable and dynamic UI.",
     ],
-    link: "https://github.com/ffannisa/",
+    link: "https://github.com/ffannisa/portfolio-website",
   },
 ];
 
