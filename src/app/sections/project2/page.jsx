@@ -46,10 +46,13 @@ const Project2 = () => {
         <div className="max-w-5xl mx-auto p-6 bg-white shadow mt-4">
           {/* Game Description */}
           <section>
-            <h3 className="cherry-bomb-one-regular text-2xl mb-4">
+            <h3
+              className="cherry-bomb-one-regular text-2xl mb-4"
+              style={{ color: "black" }}
+            >
               A little about our game!
             </h3>
-            <p>
+            <p style={{ color: "black" }}>
               Our game "Housing Hustlers" thrusts players into making crucial
               urban planning decisions as trade-offs are made in the pursuit of
               developing all three building structures whilst operating within
@@ -59,7 +62,10 @@ const Project2 = () => {
 
           {/* Game Overview */}
           <section className="mt-8">
-            <h3 className="cherry-bomb-one-regular text-2xl mb-4">
+            <h3
+              className="cherry-bomb-one-regular text-2xl mb-4"
+              style={{ color: "black" }}
+            >
               Game Overview
             </h3>
             <div className="flex flex-col gap-4">
@@ -82,7 +88,10 @@ const Project2 = () => {
 
           {/* Video Section */}
           <section className="mt-8">
-            <h3 className="cherry-bomb-one-regular text-2xl mb-4">
+            <h3
+              className="cherry-bomb-one-regular text-2xl mb-4"
+              style={{ color: "black" }}
+            >
               Click to view video!
             </h3>
             <div className="relative" id="video-container">
