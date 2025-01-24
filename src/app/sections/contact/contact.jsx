@@ -52,7 +52,7 @@ const Contact = () => {
               className="flex-shrink-0"
             >
               <Image
-                src="/images/github logo.png"
+                src="/images/github_logo.png"
                 alt="GitHub Logo"
                 width={220}
                 height={220}
@@ -67,7 +67,7 @@ const Contact = () => {
               className="flex-shrink-0"
             >
               <Image
-                src="/images/linkedin logo.png"
+                src="/images/linkedin_logo.png"
                 alt="LinkedIn Logo"
                 width={220}
                 height={220}
@@ -77,7 +77,7 @@ const Contact = () => {
             {/* Email */}
             <a href="mailto:fannisafahmi@outlook.com" className="flex-shrink-0">
               <Image
-                src="/images/email logo.png"
+                src="/images/email_logo.png"
                 alt="Email Logo"
                 width={220}
                 height={220}
