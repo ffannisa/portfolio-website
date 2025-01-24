@@ -102,8 +102,13 @@ const Projects = () => {
       id="projects"
       className="h-auto bg-green-100 flex flex-col items-center p-4"
     >
-      <h2 className="cherry-bomb-one-regular text-2xl">My Projects</h2>
-      <p className="mt-4">
+      <h2
+        className="cherry-bomb-one-regular text-2xl"
+        style={{ color: "black" }}
+      >
+        My Projects
+      </h2>
+      <p className="mt-4" style={{ color: "black" }}>
         Being a highly motivated engineering student, I have been proactively
         seeking out opportunities to hone my analytical skills.
       </p>

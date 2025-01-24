@@ -96,8 +96,13 @@ const About = () => {
 
           {/* Content */}
           <div className="content text-center md:text-left flex-1">
-            <h2 className="cherry-bomb-one-regular text-2xl mb-4">About Me</h2>
-            <p className="mb-4">
+            <h2
+              className="cherry-bomb-one-regular text-2xl mb-4"
+              style={{ color: "black" }}
+            >
+              About Me
+            </h2>
+            <p className="mb-4" style={{ color: "black" }}>
               I am currently a student specialising in Business Analytics &
               Operations Research as well as Supply Chain & Logistics. As a
               highly motivated data analyst and big data enthusiast, I am
@@ -107,7 +112,7 @@ const About = () => {
               data analytics, I have experience in a range of tools and
               technologies, including SQL, Python, and BI tools like Power BI.
             </p>
-            <p className="mb-4">
+            <p className="mb-4" style={{ color: "black" }}>
               Outside of school, I do several other commitments like volunteer
               activities and extracurricular activities where I can grow my
               communication and people-oriented skills. And in my free time I

@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Contact Information */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left" style={{ color: "black" }}>
           <h2 className="cherry-bomb-one-regular text-2xl mb-6">
             Contact Information
           </h2>

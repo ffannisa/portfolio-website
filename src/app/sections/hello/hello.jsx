@@ -34,7 +34,10 @@ const Hello = () => {
 
       {/* Centered content */}
       <div className="text-center space-y-4">
-        <p className="cherry-bomb-one-regular text-2xl">
+        <p
+          className="cherry-bomb-one-regular text-2xl"
+          style={{ color: "black" }}
+        >
           Hi! Welcome to my website portfolio!
         </p>
         <h1
