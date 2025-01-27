@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="h-auto bg-yellow-100 flex justify-center items-center p-8"
+      className="min-h-screen bg-yellow-100 flex justify-center items-center p-8"
     >
       <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Contact Information */}
@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
 
         {/* Right: Useful Links */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center pb-6">
           {/* <h2 className="cherry-bomb-one-regular text-2xl">Useful Links</h2> */}
           <div className="flex flex-wrap justify-center gap-8">
             {/* GitHub */}
