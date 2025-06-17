@@ -106,7 +106,7 @@ const About = () => {
               About Me
             </h2>
             <p className="mb-4" style={{ color: "black" }}>
-              I am currently a student specialising in Business Analytics &
+              I am a recent graduate specialising in Business Analytics &
               Operations Research as well as Supply Chain & Logistics. As a
               highly motivated data analyst and big data enthusiast, I am
               committed to expanding my skills in this dynamic field. My passion
@@ -116,7 +116,7 @@ const About = () => {
               technologies, including SQL, Python, and BI tools like Power BI.
             </p>
             <p className="mb-4" style={{ color: "black" }}>
-              Outside of school, I do several other commitments like volunteer
+              Outside of my academic life, I do several other commitments like volunteer
               activities and extracurricular activities where I can grow my
               communication and people-oriented skills. And in my free time I
               love doing Arts and Crafts!

@@ -47,7 +47,7 @@ const Hello = () => {
           Fannisa Fahmi
         </h1>
         <p className="text-sm md:text-base" style={{ color: "black" }}>
-          | Big Data Enthusiast | Undergraduate Student |
+          | Big Data Enthusiast | Business Analytics Graduate |
         </p>
         <Button
           href="./files/FannisaFahmi_Resume.pdf"
