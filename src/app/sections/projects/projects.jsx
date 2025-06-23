@@ -98,7 +98,7 @@ const projects = [
     title: "Predictive Forecast & Reporting",
     image: "/images/pic13.jpg",
     details: [
-      "Collaborated with cross-functional teams to develop a predictive analytics dashboard integrating SAP and Salesforce data forperformance tracking, featuring a Python forecasting model, key metrics, and drill-down feature for in-depth data analysis"
+      "Collaborated with cross-functional teams to develop a predictive analytics dashboard integrating SAP and Salesforce data forperformance tracking, featuring a Python forecasting model, key metrics, and drill-down feature for in-depth data analysis",
       "Lead end-to-end data tasks which includes extracting data via SQL queries from Snowflake, identifying key metrics to guide CS team predictions, and building an interactive Power BI dashboard.",
     ],
     link: "https://capstoneshowcase.sutd.edu.sg/project/proj-s36-jci_predictive-forecast-and-reporting/",
