@@ -14,6 +14,15 @@ import {
 import ArrowCircleRightOutlinedIcon from "@mui/icons-material/ArrowCircleRightOutlined";
 
 const projects = [
+    {
+    title: "Predictive Forecast & Reporting",
+    image: "/images/pic13.jpg",
+    details: [
+      "Collaborated with cross-functional teams to develop a predictive analytics dashboard integrating SAP and Salesforce data forperformance tracking, featuring a Python forecasting model, key metrics, and drill-down feature for in-depth data analysis",
+      "Lead end-to-end data tasks which includes extracting data via SQL queries from Snowflake, identifying key metrics to guide CS team predictions, and building an interactive Power BI dashboard.",
+    ],
+    link: "https://capstoneshowcase.sutd.edu.sg/project/proj-s36-jci_predictive-forecast-and-reporting/",
+  },
   {
     title: "Sales Analytics Dashboard",
     image: "/images/pic_01.jpg",
@@ -32,17 +41,6 @@ const projects = [
       "Utilized Python’s PuLP library along with Pandas and NumPy to implement the optimization model.",
     ],
     link: "https://github.com/ffannisa/Weekly-Diet-Planner",
-  },
-  {
-    title: "Hexabooth!",
-    iframe: true,
-    src: "https://sketchfab.com/models/e9e934c751d44a00a0fcda06929d5cac/embed?dnt=1",
-    details: [
-      "Designed a workspace and rest area using Twinmotion and SolidWorks, featuring a unique honeycomb structure to attract attention and engage users.",
-      "Used Twinmotion for game visualization and SolidWorks for design.",
-      "Built a prototype from scratch using woodworking techniques to bring the concept to life.",
-    ],
-    link: "http://asd.courses.sutd.edu.sg/dti-teams/hexabooth/",
   },
   //   {
   //     title: "Design and Prototype a Food Dehydrator",
@@ -86,6 +84,17 @@ const projects = [
     link: "https://github.com/ffannisa/Image-Segmentation-using-GMM",
   },
   {
+    title: "Hexabooth!",
+    iframe: true,
+    src: "https://sketchfab.com/models/e9e934c751d44a00a0fcda06929d5cac/embed?dnt=1",
+    details: [
+      "Designed a workspace and rest area using Twinmotion and SolidWorks, featuring a unique honeycomb structure to attract attention and engage users.",
+      "Used Twinmotion for game visualization and SolidWorks for design.",
+      "Built a prototype from scratch using woodworking techniques to bring the concept to life.",
+    ],
+    link: "http://asd.courses.sutd.edu.sg/dti-teams/hexabooth/",
+  },
+  {
     title: "Portfolio Website",
     image: "/images/pic12.png",
     details: [
@@ -93,15 +102,6 @@ const projects = [
       "Utilized Next.Js and Tailwind.css framework for easily editable and dynamic UI.",
     ],
     link: "https://github.com/ffannisa/portfolio-website",
-  },
-  {
-    title: "Predictive Forecast & Reporting",
-    image: "/images/pic13.jpg",
-    details: [
-      "Collaborated with cross-functional teams to develop a predictive analytics dashboard integrating SAP and Salesforce data forperformance tracking, featuring a Python forecasting model, key metrics, and drill-down feature for in-depth data analysis",
-      "Lead end-to-end data tasks which includes extracting data via SQL queries from Snowflake, identifying key metrics to guide CS team predictions, and building an interactive Power BI dashboard.",
-    ],
-    link: "https://capstoneshowcase.sutd.edu.sg/project/proj-s36-jci_predictive-forecast-and-reporting/",
   },
 ];
 
