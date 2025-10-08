@@ -5,86 +5,71 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-yellow-100 flex justify-center items-center p-8"
+      className="bg-[#ffb3dc] flex justify-center items-center py-12 px-8"
     >
-      <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Left: Contact Information */}
+      <div className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-8">
+      <h1
+        className="text-[1rem] md:text-[2rem] font-extrabold leading-none"
+        style={{
+          color: "#000000ff",
+          fontFamily: "var(--font-anton), Impact, sans-serif", // Title font
+          letterSpacing: "0px",
+        }}
+      >
+        CONTACT DETAILS
+      </h1>
+        {/* LEFT: Contact Info */}
         <div className="text-center md:text-left" style={{ color: "black" }}>
-          <h2 className="cherry-bomb-one-regular text-2xl mb-6">
-            Contact Information
-          </h2>
-          <p>
-            59 Changi South Ave 1,
-            <br />
-            485999 Singapore
-          </p>
+          <p>310C Punggol Walk, 823310</p>
           <p className="mt-2">
             (65) 91302188 <br /> (62) 814 30235532
           </p>
-          <p className="mt-2">
-            <a href="mailto:fannisa_fahmi@mymail.sutd.edu.sg">
-              fannisafahmi@outlook.com
-            </a>
-          </p>
-          <p>
-            <a href="mailto:fannisafahmi3@gmail.com">fannisafahmi3@gmail.com</a>
-          </p>
-          <p className="mt-2">
-            <a
-              href="https://linkedin.com/in/fannisa-fahmi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              linkedin.com/in/fannisa-fahmi/
-            </a>
-          </p>
         </div>
 
-        {/* Right: Useful Links */}
-        <div className="flex flex-col items-center pb-6">
-          {/* <h2 className="cherry-bomb-one-regular text-2xl">Useful Links</h2> */}
-          <div className="flex flex-wrap justify-center gap-8">
-            {/* GitHub */}
-            <a
-              href="https://github.com/ffannisa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-shrink-0"
-            >
-              <Image
-                src="/images/Github_logo.png"
-                alt="GitHub Logo"
-                width={220}
-                height={220}
-                className="cursor-pointer transition-transform transform hover:scale-110 hover:rotate-180 duration-500"
-              />
-            </a>
-            {/* LinkedIn */}
-            <a
-              href="https://linkedin.com/in/fannisa-fahmi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-shrink-0"
-            >
-              <Image
-                src="/images/Linkedin_logo.png"
-                alt="LinkedIn Logo"
-                width={220}
-                height={220}
-                className="cursor-pointer transition-transform transform hover:scale-110 hover:rotate-180 duration-500"
-              />
-            </a>
-            {/* Email */}
-            <a href="mailto:fannisafahmi@outlook.com" className="flex-shrink-0">
-              <Image
-                src="/images/Email_logo.png"
-                alt="Email Logo"
-                width={220}
-                height={220}
-                className="cursor-pointer transition-transform transform hover:scale-110 hover:rotate-180 duration-500"
-              />
-            </a>
-          </div>
+        {/* RIGHT: Icons */}
+        <div className="flex justify-center items-center gap-6 sm:gap-10 flex-wrap md:flex-nowrap">
+          {/* GitHub */}
+          <a
+            href="https://github.com/ffannisa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-shrink-0"
+          >
+            <Image
+              src="/images/Github_logo.png"
+              alt="GitHub Logo"
+              width={120}
+              height={120}
+              className="cursor-pointer w-16 sm:w-20 md:w-28 lg:w-32 h-auto transition-transform transform hover:scale-110 hover:rotate-180 duration-500"
+            />
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://linkedin.com/in/fannisa-fahmi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-shrink-0"
+          >
+            <Image
+              src="/images/Linkedin_logo.png"
+              alt="LinkedIn Logo"
+              width={120}
+              height={120}
+              className="cursor-pointer w-16 sm:w-20 md:w-28 lg:w-32 h-auto transition-transform transform hover:scale-110 hover:rotate-180 duration-500"
+            />
+          </a>
+
+          {/* Email */}
+          <a href="mailto:fannisafahmi@outlook.com" className="flex-shrink-0">
+            <Image
+              src="/images/Email_logo.png"
+              alt="Email Logo"
+              width={120}
+              height={120}
+              className="cursor-pointer w-16 sm:w-20 md:w-28 lg:w-32 h-auto transition-transform transform hover:scale-110 hover:rotate-180 duration-500"
+            />
+          </a>
         </div>
       </div>
     </section>

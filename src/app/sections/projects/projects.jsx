@@ -109,14 +109,27 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-auto bg-green-100 flex flex-col items-center p-4"
+      // className="h-auto bg-pink-100 flex flex-col items-center p-4"
+      className="h-auto bg-[#cccccc] flex flex-col items-center p-4"
+
     >
-      <h2
+      {/* <h2
         className="cherry-bomb-one-regular text-2xl"
         style={{ color: "black" }}
       >
         My Projects
-      </h2>
+      </h2> */}
+      <h1
+        className="text-[2rem] md:text-[4rem] font-extrabold leading-none"
+        style={{
+          color: "#000000ff",
+          fontFamily: "var(--font-anton), Impact, sans-serif", // Title font
+          letterSpacing: "0px",
+          lineHeight: 1.2,
+        }}
+      >
+        MY PROJECTS
+      </h1>
       <p className="mt-4" style={{ color: "black" }}>
         Being a highly motivated engineering student, I have been proactively
         seeking out opportunities to hone my analytical skills.
@@ -144,7 +157,7 @@ const Projects = () => {
                   md: "calc(50% - 1.5em)", // Two cards in one row for medium screens
                   lg: "calc(33.33% - 1.5em)", // Three cards in one row for large screens
                 },
-                backgroundColor: "#49917a",
+                backgroundColor: "#0a0a0a",
                 color: "#fff",
                 borderRadius: "5px",
                 boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
