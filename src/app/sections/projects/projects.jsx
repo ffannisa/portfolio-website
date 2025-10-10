@@ -110,8 +110,13 @@ const Projects = () => {
     <section
       id="projects"
       // className="h-auto bg-pink-100 flex flex-col items-center p-4"
-      className="h-auto bg-[#cccccc] flex flex-col items-center p-4"
-
+      className="h-auto flex flex-col items-center p-4"
+      style={{
+        backgroundColor: "#f5f1e8",
+        backgroundImage: "url('/images/paper_texture.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       {/* <h2
         className="cherry-bomb-one-regular text-2xl"

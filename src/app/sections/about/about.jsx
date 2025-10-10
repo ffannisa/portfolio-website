@@ -37,7 +37,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-auto bg-black-100 flex justify-center items-center py-12"
+      className="h-auto bg-[#0a0a0a] flex justify-center items-center py-12"
     >
       <div className="flex flex-col md:flex-row max-w-7xl mx-auto gap-8 p-6 items-stretch">
         {/* About Content on the LEFT */}
