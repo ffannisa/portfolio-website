@@ -102,6 +102,7 @@ const Hello = () => {
               fontFamily: "var(--font-anton), Impact, sans-serif", // Title font
               letterSpacing: "0px",
               lineHeight: 0.75,
+              WebkitTextStroke: "0.5px #faa1d4", // subtle stroke for more visual weight
             }}
           >
             FANNISA <br /> FAHMI

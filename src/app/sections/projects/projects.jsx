@@ -114,8 +114,9 @@ const Projects = () => {
       style={{
         backgroundColor: "#f5f1e8",
         backgroundImage: "url('/images/paper_texture.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundRepeat: "repeat",
+        backgroundSize: "auto",
+        backgroundPosition: "top left",
       }}
     >
       {/* <h2
@@ -127,7 +128,7 @@ const Projects = () => {
       <h1
         className="text-[2rem] md:text-[4rem] font-extrabold leading-none"
         style={{
-          color: "#000000ff",
+          color: "#faa1d4",
           fontFamily: "var(--font-anton), Impact, sans-serif", // Title font
           letterSpacing: "0px",
           lineHeight: 1.2,
