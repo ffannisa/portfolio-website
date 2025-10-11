@@ -20,7 +20,7 @@ const Contact = () => {
       </h1>
         {/* LEFT: Contact Info */}
         <div className="text-center md:text-left" style={{ color: "black" }}>
-          <p>310C Punggol Walk, 823310</p>
+          {/* <p>310C Punggol Walk, 823310</p> */}
           <p className="mt-2">
             (65) 91302188 <br /> (62) 814 30235532
           </p>
