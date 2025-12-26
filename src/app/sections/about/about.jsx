@@ -17,19 +17,23 @@ const skills = [
     "SQL",
     "R",
     "RShiny",
+    "Power BI",
+    "Looker Studio",
+    "Julia",
+    "Excel",
+    "Powerpoint",
+    "Snowflake",
+    "Big Query",
+    "Google Cloud Platform",
+    "Git",
+    "JIRA",
+    "Confluence",
     "HTML",
     "Javascript",
-    "Power BI",
-    "Julia",
-    "Powerpoint",
-    "Excel",
     "Highcharts Js",
     "Next.Js",
     "Tailwind CSS",
-    "React",
-    "Google Cloud Platform",
-    "Snowflake",
-    "Git",
+    "React"
   ],
 ];
 
@@ -71,7 +75,7 @@ const About = () => {
               lies in leveraging data-driven insights to drive strategic
               decision-making and business growth. With a strong background in
               data analytics, I have experience in a range of tools and
-              technologies, including SQL, Python, and BI tools like Power BI.
+              technologies, including SQL, Python, R, Excel and BI tools like Power BI and Looker Studio.
             </p>
             <p className="mb-4" style={{ color: "white" }}>
               Outside of my academic life, I do several other commitments like volunteer
